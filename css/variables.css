@@ -1,0 +1,12 @@
+:root{
+    --primary-color: #FFFFFF;
+    --text-btn-color: #FFFFFF;
+    --btn-active: #50B83C;
+    --btn-active-hover: #4acf2f;
+    --btn-focus: #118044;
+    --btn-icon-bgc: rgba(80,184,60,0.1);
+    --sidebar-color: #020a01;
+    --sidebar-hover: #616161;
+    --sidebar-active: #424242;
+    --shawdow-bgc: #EBEBEB;
+}   

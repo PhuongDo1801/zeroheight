@@ -1,0 +1,72 @@
+.btn {
+    min-width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-weight: 500px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-label {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.btn--primary {
+    background-color: var(--btn-active);
+    color: var(--text-btn-color);
+}
+.btn--primary:hover {
+    background-color: var(--btn-active-hover);
+}
+.btn--second {
+    background-color: #FFFFFF;
+}
+.btn--link {
+    background-color: transparent;
+    color: var(--btn-active);
+}
+.btn-icon--add {
+    background-color: var(--btn-icon-bgc);
+    border-radius: 4px;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+.btn--with-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color: var(--btn-active);
+}
+.btn--with-icon, .btn--combo .icon--add {
+    margin-right: 4px;
+}
+.btn--combo {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.btn--combo-left {
+    background-color: var(--btn-active);
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-right: 1px;
+    padding-right: 16px;
+    border-radius: 4px 0 0 4px;
+}
+.btn--combo .icon-white-dropdown {
+    background-color: var(--btn-active);
+    width: 32px;
+    height: 32px;
+    border-radius: 0 4px 4px 0;
+}
