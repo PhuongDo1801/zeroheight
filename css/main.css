@@ -1,5 +1,6 @@
 @import url(./component/icon.css);
 @import url(./component/button.css);
+@import url(./component/textfield.css);
 *{
     padding: 0;
     margin: 0;
@@ -39,4 +40,7 @@ body {
 .container {
     background-color: var(--shawdow-bgc);
     padding: 12px;
+}
+section {
+    margin-bottom: 12px;
 }

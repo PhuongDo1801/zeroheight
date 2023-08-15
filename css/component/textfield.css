@@ -1,0 +1,57 @@
+.tf {
+    width: 200px;
+    height: 32px;
+    padding-left: 12px;
+    margin-top: 8px;
+    border: 1px solid var(--textfield-border);
+    border-radius: 4px;
+    outline: none;
+}
+.textfield {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}   
+.tf--normal:focus {
+    border: 1px solid var(--textfield-focus-border);
+}
+.tf--normal:hover {
+    background-color: var(--textfield-hover);
+}
+.tf--error{
+    border: 1px solid var(--error-border);
+}
+.error-msg {
+    color: var(--error-border);
+    font-size: 12px;
+    margin-top: 8px;
+}
+.tf--read-only {
+    background-color: var(--read-only-tf-bgc);
+    border: 1px solid var(--read-only-tf-border);
+}
+.textfield-validate {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+.icon--validate {
+    position: absolute;
+    top: 61%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+.tf--validate {
+    border: 1px solid var(--textfield-focus-border);
+}
+.textfield-action {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+.icon--search {
+    position: absolute;
+    top: 61%;
+    right: 8px;
+    transform: translateY(-50%);
+}

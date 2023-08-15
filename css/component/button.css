@@ -47,7 +47,7 @@
     color: #FFFFFF;
     background-color: var(--btn-active);
 }
-.btn--with-icon, .btn--combo .icon--add {
+.btn--with-icon .icon--add, .btn--combo .icon--add {
     margin-right: 4px;
 }
 .btn--combo {
