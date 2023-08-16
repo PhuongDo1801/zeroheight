@@ -1,0 +1,66 @@
+/* Popup notification */
+.popup-data--change {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 24px;
+}
+.data--change-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.data--change-header p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.data--change-body {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.data--change-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.data--change-footer .btn {
+    margin-left: 8px;
+}
+/* Toastmessage */
+.popup-toastmsg {
+    width: 450px;
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.popup-toastmsg p {
+    color: var(--popup-text);
+}
+.toast--left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.toast--left p {
+    margin-left: 8px;
+}
+.toast--left span {
+    color: var(--success-msg);
+}
+.toast--right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.toast--right u {
+    font-weight: 500;
+    margin-right: 18px;
+}

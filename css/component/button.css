@@ -28,6 +28,7 @@
 }
 .btn--second {
     background-color: #FFFFFF;
+    border: 1px solid var(--btn-second-border);
 }
 .btn--link {
     background-color: transparent;

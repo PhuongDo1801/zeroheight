@@ -1,0 +1,59 @@
+.dropdownlist {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+.tf-dropdownlist:focus {
+    border: 1px solid var(--textfield-focus-border);
+}
+.tf-dropdownlist:hover {
+    background-color: var(--textfield-hover);
+}
+.icon--dropdownlist {
+    position: absolute;
+    top: 12px;
+    /* transform: translateY(-50%); */
+    right: 8px
+}
+.dropdown-options {
+    display: none;
+}
+.show-options {
+    display: block !important; /* Hiển thị danh sách khi có lớp show-options */
+}
+.dropdown-wrapper {
+    width: 200px;
+    padding-right: 8px;
+    background-color: #FFFFFF;
+}
+.dropdownlist ul {
+    list-style: none;
+    padding: 8px 0 8px 8px;
+    /* width: 200px; */
+    height: 150px;
+    overflow-y: scroll;
+    scroll-margin-right: 8px;
+}
+.dropdownlist ul li {
+    height: 32px;
+    padding: 8px;
+    cursor: pointer;
+}
+.dropdownlist ul li:hover {
+    background-color: var(--droplist-options-hover);
+}
+
+/* CSS cho thanh cuộn */
+.dropdownlist ul::-webkit-scrollbar {
+    width: 8px; /* Độ rộng của thanh cuộn */
+}
+/* Màu của "cần trượt" */
+.dropdownlist ul::-webkit-scrollbar-thumb {
+    background-color: #BDBDBD;
+    border-radius: 4px; /* Bo góc cho nút cuộn */
+}
+
+/* Hover trên "cần trượt" */
+.dropdownlist ul::-webkit-scrollbar-thumb:hover {
+    background-color: #9E9E9E;
+}

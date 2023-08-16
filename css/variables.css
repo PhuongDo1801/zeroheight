@@ -11,6 +11,7 @@
     --btn-active-hover: #4acf2f;
     --btn-focus: #118044;
     --btn-icon-bgc: rgba(80,184,60,0.1);
+    --btn-second-border: #E0E0E0;
     /* textfiled */
     --textfield-focus-border: #50B83C;
     --textfield-border: #EBEBEB;
@@ -18,4 +19,9 @@
     --placeholder-color: #9E9E9E;
     --read-only-tf-border: #E0E0E0;
     --read-only-tf-bgc: #EBEBEB;
+    /* dropdownlist */
+    --droplist-options-hover: rgba(80,184,60,0.1);
+    /* Popup */
+    --popup-text: #1F1F1F;
+    --success-msg: #50B83C;
 }   
